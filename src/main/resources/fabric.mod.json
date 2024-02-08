@@ -2,22 +2,19 @@
   "schemaVersion": 1,
   "id": "keepxp",
   "version": "${version}",
-
-  "name": "Keep XP On Death",
+  "name": "Keep XP On Death (Gamerule Edition)",
   "description": "Upon death keep your xp safe!",
   "authors": [
-    "Caleb"
+    "Caleb",
+    "AkashiiKun"
   ],
-  "contact": {
-    "homepage": "",
-    "sources": ""
-  },
-
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/keepxp/icon.png",
-
   "environment": "*",
   "entrypoints": {
+    "main": [
+      "io.github.akashiikun.keepxp.KeepXPOnDeathMod"
+    ]
   },
   "mixins": [
     "keepxp.mixins.json"
