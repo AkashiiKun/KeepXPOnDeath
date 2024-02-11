@@ -6,8 +6,7 @@
   "mixins": [
     "BooleanRuleInvoker",
     "GameRulesInvoker",
-    "KeepXpOnRespawnMixin",
-    "NoXpDropMixin"
+    "KeepXpOnRespawnMixin"
   ],
   "injectors": {
     "defaultRequire": 1
